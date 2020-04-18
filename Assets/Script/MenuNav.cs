@@ -101,9 +101,9 @@ public class MenuNav : MonoBehaviour
             
         }
 
-        if (Input.GetKeyDown(KeyCode.F1) && menuIsPause == false) {
+        if (Input.GetKeyDown(KeyCode.O) && menuIsPause == false) {
             if (conditionYES == false) {
-                // print("condition to= "+ conditionYES);
+                print("condition to= "+ conditionYES);
                 conditionYES = true;
                 // GameObject[] level1 = GameObject.FindGameObjectsWithTag("Level1YES");
                 // GameObject[] level2 = GameObject.FindGameObjectsWithTag("Level2YES");
@@ -115,7 +115,7 @@ public class MenuNav : MonoBehaviour
                 // }
             }
             else {
-                // print("condition to= "+ conditionYES);
+                print("condition to= "+ conditionYES);
                 conditionYES = false;
                 // GameObject[] level1 = GameObject.FindGameObjectsWithTag("Level1NO");
                 // GameObject[] level2 = GameObject.FindGameObjectsWithTag("Level2NO");
